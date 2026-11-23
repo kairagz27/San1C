@@ -1,0 +1,31 @@
+name: Ошибка
+description: Сообщить о проблеме San1C
+title: "[Ошибка] "
+body:
+  - type: textarea
+    id: observed
+    attributes:
+      label: Что произошло
+      description: Опишите наблюдаемый результат и шаги для повтора.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Что ожидалось
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Версии приложения и 1С
+      description: Укажите только лабораторную или разрешённую тестовую среду.
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Безопасный журнал
+      description: Удалите из лога пароли, токены, персональные данные и адреса систем клиента.
+    validations:
+      required: false

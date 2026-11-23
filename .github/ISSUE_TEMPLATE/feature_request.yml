@@ -1,0 +1,24 @@
+name: Предложение
+description: Предложить улучшение продукта
+title: "[Предложение] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Задача пользователя
+      description: Какой результат нужен владельцу или специалисту 1С?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Идея решения
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Контекст пилота
+      description: Приведите обезличенный пример. Не прикладывайте клиентскую базу 1С или секреты.
+    validations:
+      required: false

@@ -1,0 +1,949 @@
+{
+  "start": "2026-11-09",
+  "end": "2026-11-22",
+  "report_name": "Учебная 1С · repeat14 · 20261123-110903-c3d6d876",
+  "point": null,
+  "status": "matched",
+  "rows": [
+    {
+      "date": "2026-11-09",
+      "point_id": "53b30828-2512-4419-8170-000000000002",
+      "point_name": "Учебная точка",
+      "expected": {
+        "sales": "1000.00",
+        "returns": "0.00",
+        "net": "1000.00"
+      },
+      "actual": {
+        "sales": "1000.00",
+        "returns": "0.00",
+        "net": "1000.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-09",
+      "point_id": "53b30828-2512-4419-8170-000000000007",
+      "point_name": "Учебная точка Восток",
+      "expected": {
+        "sales": "2100.00",
+        "returns": "0.00",
+        "net": "2100.00"
+      },
+      "actual": {
+        "sales": "2100.00",
+        "returns": "0.00",
+        "net": "2100.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-10",
+      "point_id": "53b30828-2512-4419-8170-000000000002",
+      "point_name": "Учебная точка",
+      "expected": {
+        "sales": "1010.00",
+        "returns": "0.00",
+        "net": "1010.00"
+      },
+      "actual": {
+        "sales": "1010.00",
+        "returns": "0.00",
+        "net": "1010.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-10",
+      "point_id": "53b30828-2512-4419-8170-000000000007",
+      "point_name": "Учебная точка Восток",
+      "expected": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "actual": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-11",
+      "point_id": "53b30828-2512-4419-8170-000000000002",
+      "point_name": "Учебная точка",
+      "expected": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "actual": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-11",
+      "point_id": "53b30828-2512-4419-8170-000000000007",
+      "point_name": "Учебная точка Восток",
+      "expected": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "actual": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-12",
+      "point_id": "53b30828-2512-4419-8170-000000000002",
+      "point_name": "Учебная точка",
+      "expected": {
+        "sales": "1030.00",
+        "returns": "0.00",
+        "net": "1030.00"
+      },
+      "actual": {
+        "sales": "1030.00",
+        "returns": "0.00",
+        "net": "1030.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-12",
+      "point_id": "53b30828-2512-4419-8170-000000000007",
+      "point_name": "Учебная точка Восток",
+      "expected": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "actual": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-13",
+      "point_id": "53b30828-2512-4419-8170-000000000002",
+      "point_name": "Учебная точка",
+      "expected": {
+        "sales": "1040.00",
+        "returns": "0.00",
+        "net": "1040.00"
+      },
+      "actual": {
+        "sales": "1040.00",
+        "returns": "0.00",
+        "net": "1040.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-13",
+      "point_id": "53b30828-2512-4419-8170-000000000007",
+      "point_name": "Учебная точка Восток",
+      "expected": {
+        "sales": "2180.00",
+        "returns": "204.00",
+        "net": "1976.00"
+      },
+      "actual": {
+        "sales": "2180.00",
+        "returns": "204.00",
+        "net": "1976.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-14",
+      "point_id": "53b30828-2512-4419-8170-000000000002",
+      "point_name": "Учебная точка",
+      "expected": {
+        "sales": "1050.00",
+        "returns": "0.00",
+        "net": "1050.00"
+      },
+      "actual": {
+        "sales": "1050.00",
+        "returns": "0.00",
+        "net": "1050.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-14",
+      "point_id": "53b30828-2512-4419-8170-000000000007",
+      "point_name": "Учебная точка Восток",
+      "expected": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "actual": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-15",
+      "point_id": "53b30828-2512-4419-8170-000000000002",
+      "point_name": "Учебная точка",
+      "expected": {
+        "sales": "1060.00",
+        "returns": "0.00",
+        "net": "1060.00"
+      },
+      "actual": {
+        "sales": "1060.00",
+        "returns": "0.00",
+        "net": "1060.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-15",
+      "point_id": "53b30828-2512-4419-8170-000000000007",
+      "point_name": "Учебная точка Восток",
+      "expected": {
+        "sales": "2220.00",
+        "returns": "0.00",
+        "net": "2220.00"
+      },
+      "actual": {
+        "sales": "2220.00",
+        "returns": "0.00",
+        "net": "2220.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-16",
+      "point_id": "53b30828-2512-4419-8170-000000000002",
+      "point_name": "Учебная точка",
+      "expected": {
+        "sales": "10000.00",
+        "returns": "2000.00",
+        "net": "8000.00"
+      },
+      "actual": {
+        "sales": "10000.00",
+        "returns": "2000.00",
+        "net": "8000.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-16",
+      "point_id": "53b30828-2512-4419-8170-000000000007",
+      "point_name": "Учебная точка Восток",
+      "expected": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "actual": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-17",
+      "point_id": "53b30828-2512-4419-8170-000000000002",
+      "point_name": "Учебная точка",
+      "expected": {
+        "sales": "1080.00",
+        "returns": "0.00",
+        "net": "1080.00"
+      },
+      "actual": {
+        "sales": "1080.00",
+        "returns": "0.00",
+        "net": "1080.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-17",
+      "point_id": "53b30828-2512-4419-8170-000000000007",
+      "point_name": "Учебная точка Восток",
+      "expected": {
+        "sales": "2260.00",
+        "returns": "0.00",
+        "net": "2260.00"
+      },
+      "actual": {
+        "sales": "2260.00",
+        "returns": "0.00",
+        "net": "2260.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-18",
+      "point_id": "53b30828-2512-4419-8170-000000000002",
+      "point_name": "Учебная точка",
+      "expected": {
+        "sales": "1090.00",
+        "returns": "0.00",
+        "net": "1090.00"
+      },
+      "actual": {
+        "sales": "1090.00",
+        "returns": "0.00",
+        "net": "1090.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-18",
+      "point_id": "53b30828-2512-4419-8170-000000000007",
+      "point_name": "Учебная точка Восток",
+      "expected": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "actual": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-19",
+      "point_id": "53b30828-2512-4419-8170-000000000002",
+      "point_name": "Учебная точка",
+      "expected": {
+        "sales": "1100.00",
+        "returns": "0.00",
+        "net": "1100.00"
+      },
+      "actual": {
+        "sales": "1100.00",
+        "returns": "0.00",
+        "net": "1100.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-19",
+      "point_id": "53b30828-2512-4419-8170-000000000007",
+      "point_name": "Учебная точка Восток",
+      "expected": {
+        "sales": "2300.00",
+        "returns": "0.00",
+        "net": "2300.00"
+      },
+      "actual": {
+        "sales": "2300.00",
+        "returns": "0.00",
+        "net": "2300.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-20",
+      "point_id": "53b30828-2512-4419-8170-000000000002",
+      "point_name": "Учебная точка",
+      "expected": {
+        "sales": "1110.00",
+        "returns": "0.00",
+        "net": "1110.00"
+      },
+      "actual": {
+        "sales": "1110.00",
+        "returns": "0.00",
+        "net": "1110.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-20",
+      "point_id": "53b30828-2512-4419-8170-000000000007",
+      "point_name": "Учебная точка Восток",
+      "expected": {
+        "sales": "0.00",
+        "returns": "211.00",
+        "net": "-211.00"
+      },
+      "actual": {
+        "sales": "0.00",
+        "returns": "211.00",
+        "net": "-211.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-21",
+      "point_id": "53b30828-2512-4419-8170-000000000002",
+      "point_name": "Учебная точка",
+      "expected": {
+        "sales": "1120.00",
+        "returns": "0.00",
+        "net": "1120.00"
+      },
+      "actual": {
+        "sales": "1120.00",
+        "returns": "0.00",
+        "net": "1120.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-21",
+      "point_id": "53b30828-2512-4419-8170-000000000007",
+      "point_name": "Учебная точка Восток",
+      "expected": {
+        "sales": "2340.00",
+        "returns": "0.00",
+        "net": "2340.00"
+      },
+      "actual": {
+        "sales": "2340.00",
+        "returns": "0.00",
+        "net": "2340.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-22",
+      "point_id": "53b30828-2512-4419-8170-000000000002",
+      "point_name": "Учебная точка",
+      "expected": {
+        "sales": "1130.00",
+        "returns": "0.00",
+        "net": "1130.00"
+      },
+      "actual": {
+        "sales": "1130.00",
+        "returns": "0.00",
+        "net": "1130.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-22",
+      "point_id": "53b30828-2512-4419-8170-000000000007",
+      "point_name": "Учебная точка Восток",
+      "expected": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "actual": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    }
+  ],
+  "days": [
+    {
+      "date": "2026-11-09",
+      "expected": {
+        "sales": "3100.00",
+        "returns": "0.00",
+        "net": "3100.00"
+      },
+      "actual": {
+        "sales": "3100.00",
+        "returns": "0.00",
+        "net": "3100.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-10",
+      "expected": {
+        "sales": "1010.00",
+        "returns": "0.00",
+        "net": "1010.00"
+      },
+      "actual": {
+        "sales": "1010.00",
+        "returns": "0.00",
+        "net": "1010.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-11",
+      "expected": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "actual": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-12",
+      "expected": {
+        "sales": "1030.00",
+        "returns": "0.00",
+        "net": "1030.00"
+      },
+      "actual": {
+        "sales": "1030.00",
+        "returns": "0.00",
+        "net": "1030.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-13",
+      "expected": {
+        "sales": "3220.00",
+        "returns": "204.00",
+        "net": "3016.00"
+      },
+      "actual": {
+        "sales": "3220.00",
+        "returns": "204.00",
+        "net": "3016.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-14",
+      "expected": {
+        "sales": "1050.00",
+        "returns": "0.00",
+        "net": "1050.00"
+      },
+      "actual": {
+        "sales": "1050.00",
+        "returns": "0.00",
+        "net": "1050.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-15",
+      "expected": {
+        "sales": "3280.00",
+        "returns": "0.00",
+        "net": "3280.00"
+      },
+      "actual": {
+        "sales": "3280.00",
+        "returns": "0.00",
+        "net": "3280.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-16",
+      "expected": {
+        "sales": "10000.00",
+        "returns": "2000.00",
+        "net": "8000.00"
+      },
+      "actual": {
+        "sales": "10000.00",
+        "returns": "2000.00",
+        "net": "8000.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-17",
+      "expected": {
+        "sales": "3340.00",
+        "returns": "0.00",
+        "net": "3340.00"
+      },
+      "actual": {
+        "sales": "3340.00",
+        "returns": "0.00",
+        "net": "3340.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-18",
+      "expected": {
+        "sales": "1090.00",
+        "returns": "0.00",
+        "net": "1090.00"
+      },
+      "actual": {
+        "sales": "1090.00",
+        "returns": "0.00",
+        "net": "1090.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-19",
+      "expected": {
+        "sales": "3400.00",
+        "returns": "0.00",
+        "net": "3400.00"
+      },
+      "actual": {
+        "sales": "3400.00",
+        "returns": "0.00",
+        "net": "3400.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-20",
+      "expected": {
+        "sales": "1110.00",
+        "returns": "211.00",
+        "net": "899.00"
+      },
+      "actual": {
+        "sales": "1110.00",
+        "returns": "211.00",
+        "net": "899.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-21",
+      "expected": {
+        "sales": "3460.00",
+        "returns": "0.00",
+        "net": "3460.00"
+      },
+      "actual": {
+        "sales": "3460.00",
+        "returns": "0.00",
+        "net": "3460.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "date": "2026-11-22",
+      "expected": {
+        "sales": "1130.00",
+        "returns": "0.00",
+        "net": "1130.00"
+      },
+      "actual": {
+        "sales": "1130.00",
+        "returns": "0.00",
+        "net": "1130.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    }
+  ],
+  "points": [
+    {
+      "point_id": "53b30828-2512-4419-8170-000000000002",
+      "point_name": "Учебная точка",
+      "expected": {
+        "sales": "22820.00",
+        "returns": "2000.00",
+        "net": "20820.00"
+      },
+      "actual": {
+        "sales": "22820.00",
+        "returns": "2000.00",
+        "net": "20820.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    },
+    {
+      "point_id": "53b30828-2512-4419-8170-000000000007",
+      "point_name": "Учебная точка Восток",
+      "expected": {
+        "sales": "13400.00",
+        "returns": "415.00",
+        "net": "12985.00"
+      },
+      "actual": {
+        "sales": "13400.00",
+        "returns": "415.00",
+        "net": "12985.00"
+      },
+      "delta": {
+        "sales": "0.00",
+        "returns": "0.00",
+        "net": "0.00"
+      },
+      "status": "matched"
+    }
+  ],
+  "total": {
+    "expected": {
+      "sales": "36220.00",
+      "returns": "2415.00",
+      "net": "33805.00"
+    },
+    "actual": {
+      "sales": "36220.00",
+      "returns": "2415.00",
+      "net": "33805.00"
+    },
+    "delta": {
+      "sales": "0.00",
+      "returns": "0.00",
+      "net": "0.00"
+    },
+    "status": "matched"
+  },
+  "missing_days": [],
+  "unmapped_points": [],
+  "control_sha256": "e6c05c3e6b01c23c621e2119cb04afefe0c23cbd222d8927a5dd413f50743210",
+  "profile_id": "san1c-file-lab-v1",
+  "configuration": "УчебнаяТорговля",
+  "release": "1.0.0.1",
+  "company": "",
+  "organization_uuid": "53b30828-2512-4419-8170-000000000001",
+  "pilot_points": [
+    {
+      "id": "53b30828-2512-4419-8170-000000000002",
+      "name": "Учебная точка"
+    },
+    {
+      "id": "53b30828-2512-4419-8170-000000000007",
+      "name": "Учебная точка Восток"
+    }
+  ],
+  "currency": "KZT",
+  "category": null,
+  "timezone": "Asia/Almaty",
+  "tax_basis": "Сумма строки в KZT после скидок, включая НДС",
+  "id": "6295cd28-9fe3-41ea-b803-433e6752f72d",
+  "created_at": "2026-11-23T06:10:47.272629+00:00"
+}

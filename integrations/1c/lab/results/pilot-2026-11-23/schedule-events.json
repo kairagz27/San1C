@@ -1,0 +1,32 @@
+[
+  {
+    "time_local": "2026-11-23T11:13:13",
+    "event": "_$Job$_.Start",
+    "level": "I"
+  },
+  {
+    "time_local": "2026-11-23T11:13:13",
+    "event": "_$Job$_.Error",
+    "level": "E"
+  },
+  {
+    "time_local": "2026-11-23T11:14:13",
+    "event": "_$Job$_.Start",
+    "level": "I"
+  },
+  {
+    "time_local": "2026-11-23T11:14:14",
+    "event": "_$Job$_.Finish",
+    "level": "I"
+  },
+  {
+    "time_local": "2026-11-23T11:15:14",
+    "event": "_$Job$_.Start",
+    "level": "I"
+  },
+  {
+    "time_local": "2026-11-23T11:15:14",
+    "event": "_$Job$_.Finish",
+    "level": "I"
+  }
+]

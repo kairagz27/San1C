@@ -1,0 +1,10 @@
+{
+	auto_https disable_redirects
+	skip_install_trust
+	default_sni {$LAB_TLS_HOST}
+}
+
+{$LAB_TLS_HOST} {
+	tls internal
+	reverse_proxy app:8000
+}

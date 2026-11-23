@@ -1,0 +1,45 @@
+name: san1c
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: san1c
+      POSTGRES_USER: san1c
+      POSTGRES_HOST_AUTH_METHOD: trust
+    command: ["postgres", "-c", "listen_addresses="]
+    volumes:
+      - data:/var/lib/postgresql/data
+      - socket:/var/run/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U san1c -d san1c"]
+      interval: 3s
+      timeout: 3s
+      retries: 25
+    restart: unless-stopped
+  app:
+    build: .
+    ports:
+      - "127.0.0.1:${SAN1C_PORT:-8088}:8000"
+    environment:
+      DATABASE_URL: postgresql+psycopg://san1c@/san1c?host=/var/run/postgresql
+      COMPANY_TIMEZONE: ${COMPANY_TIMEZONE:-Asia/Almaty}
+      ADMIN_PASSWORD_HASH: ${ADMIN_PASSWORD_HASH:-}
+      OWNER_PASSWORD_HASH: ${OWNER_PASSWORD_HASH:-}
+      COMPANY_NAME: ${COMPANY_NAME:-}
+      UPLOAD_TOKEN_SHA256: ${UPLOAD_TOKEN_SHA256:-}
+      SESSION_COOKIE_SECURE: ${SESSION_COOKIE_SECURE:-0}
+      INTEGRATION_PROFILE: ${INTEGRATION_PROFILE:-/srv/integrations/1c/profiles/educational/profile.json}
+    volumes:
+      - socket:/var/run/postgresql
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health')"]
+      interval: 10s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+volumes:
+  data:
+  socket:

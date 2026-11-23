@@ -1,0 +1,66 @@
+{
+  "observed_at": "2026-11-23T05:28:26.843918+00:00",
+  "origin": "https://localhost:8446",
+  "profile_id": "san1c-file-lab-v1",
+  "day": {
+    "date": "2026-11-16",
+    "status": "confirmed",
+    "rows": 2
+  },
+  "last_event": {
+    "at": "2026-11-23T05:28:17.791716+00:00",
+    "business_date": "2026-11-16",
+    "code": "accepted",
+    "rows": 2
+  },
+  "last_generated_at": "2026-11-23T05:28:17+00:00",
+  "last_success_at": "2026-11-23T05:28:17.778334+00:00",
+  "reports": [
+    {
+      "range": {
+        "start": "2026-11-16",
+        "end": "2026-11-16"
+      },
+      "filters": {
+        "point": null,
+        "category": null
+      },
+      "current_complete": true,
+      "points": [
+        {
+          "id": "53b30828-2512-4419-8170-000000000002",
+          "name": "Учебная точка"
+        }
+      ],
+      "kpis": {
+        "sales": "10000.00",
+        "returns": "2000.00",
+        "net": "8000.00",
+        "documents": 1
+      }
+    },
+    {
+      "range": {
+        "start": "2026-11-16",
+        "end": "2026-11-16"
+      },
+      "filters": {
+        "point": "53b30828-2512-4419-8170-000000000002",
+        "category": null
+      },
+      "current_complete": true,
+      "points": [
+        {
+          "id": "53b30828-2512-4419-8170-000000000002",
+          "name": "Учебная точка"
+        }
+      ],
+      "kpis": {
+        "sales": "10000.00",
+        "returns": "2000.00",
+        "net": "8000.00",
+        "documents": 1
+      }
+    }
+  ]
+}

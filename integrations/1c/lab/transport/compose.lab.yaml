@@ -1,0 +1,24 @@
+services:
+  app:
+    image: san1c-lab-web:local
+    ports: !reset []
+    volumes:
+      - type: bind
+        source: ${LAB_PROFILE_DIR:?}
+        target: /srv/lab-profile
+        read_only: true
+  tls:
+    image: caddy:2-alpine
+    environment:
+      LAB_TLS_HOST: ${LAB_TLS_HOST:?}
+    ports:
+      - "127.0.0.1:${LAB_TLS_PORT:?}:443"
+    volumes:
+      - ./integrations/1c/lab/transport/Caddyfile:/etc/caddy/Caddyfile:ro
+      - ca:/data
+    depends_on:
+      app:
+        condition: service_healthy
+    restart: unless-stopped
+volumes:
+  ca:

@@ -1,0 +1,486 @@
+{
+"phase": "repeat14",
+"ok": true,
+"platform": "8.5.1.1343",
+"configuration": "УчебнаяТорговля",
+"release": "1.0.0.1",
+"started_at_utc": "2026-11-23T06:10:38Z",
+"preflight": {
+"ok": true,
+"platform": "8.5.1.1343",
+"configuration": "УчебнаяТорговля",
+"release": "1.0.0.1",
+"profile_id": "san1c-file-lab-v1",
+"fields": [
+{
+"name": "Справочник.УчебныеОрганизации",
+"found": true
+},
+{
+"name": "Справочник.УчебныеТочки",
+"found": true
+},
+{
+"name": "Справочник.УчебныеТовары",
+"found": true
+},
+{
+"name": "Справочник.УчебныеКатегории",
+"found": true
+},
+{
+"name": "Справочник.УчебныеТовары.Реквизит.Категория",
+"found": true
+},
+{
+"name": "Документ.УчебнаяПродажа",
+"found": true
+},
+{
+"name": "Документ.УчебнаяПродажа.Реквизит.Организация",
+"found": true
+},
+{
+"name": "Документ.УчебнаяПродажа.Реквизит.Точка",
+"found": true
+},
+{
+"name": "Документ.УчебнаяПродажа.ТабличнаяЧасть.Строки",
+"found": true
+},
+{
+"name": "Документ.УчебнаяПродажа.ТабличнаяЧасть.Строки.Реквизит.КлючСтроки",
+"found": true
+},
+{
+"name": "Документ.УчебнаяПродажа.ТабличнаяЧасть.Строки.Реквизит.Товар",
+"found": true
+},
+{
+"name": "Документ.УчебнаяПродажа.ТабличнаяЧасть.Строки.Реквизит.Количество",
+"found": true
+},
+{
+"name": "Документ.УчебнаяПродажа.ТабличнаяЧасть.Строки.Реквизит.СуммаВТенгеСНДС",
+"found": true
+},
+{
+"name": "Документ.УчебныйВозврат",
+"found": true
+},
+{
+"name": "Документ.УчебныйВозврат.Реквизит.Организация",
+"found": true
+},
+{
+"name": "Документ.УчебныйВозврат.Реквизит.Точка",
+"found": true
+},
+{
+"name": "Документ.УчебныйВозврат.ТабличнаяЧасть.Строки",
+"found": true
+},
+{
+"name": "Документ.УчебныйВозврат.ТабличнаяЧасть.Строки.Реквизит.КлючСтроки",
+"found": true
+},
+{
+"name": "Документ.УчебныйВозврат.ТабличнаяЧасть.Строки.Реквизит.Товар",
+"found": true
+},
+{
+"name": "Документ.УчебныйВозврат.ТабличнаяЧасть.Строки.Реквизит.Количество",
+"found": true
+},
+{
+"name": "Документ.УчебныйВозврат.ТабличнаяЧасть.Строки.Реквизит.СуммаВТенгеСНДС",
+"found": true
+}
+],
+"http_status": 200,
+"message": "Объекты, поля, права чтения и профиль HTTPS проверены."
+},
+"controls": [
+{
+"sales": 1000,
+"returns": 0,
+"net": 1000,
+"sale_documents": 1,
+"lines": 1,
+"store_name": "Учебная точка",
+"date": "2026-11-09",
+"point_id": "53b30828-2512-4419-8170-000000000002"
+},
+{
+"sales": 2100,
+"returns": 0,
+"net": 2100,
+"sale_documents": 1,
+"lines": 1,
+"store_name": "Учебная точка Восток",
+"date": "2026-11-09",
+"point_id": "53b30828-2512-4419-8170-000000000007"
+},
+{
+"sales": 1010,
+"returns": 0,
+"net": 1010,
+"sale_documents": 1,
+"lines": 1,
+"store_name": "Учебная точка",
+"date": "2026-11-10",
+"point_id": "53b30828-2512-4419-8170-000000000002"
+},
+{
+"sales": 0,
+"returns": 0,
+"net": 0,
+"sale_documents": 0,
+"lines": 0,
+"store_name": "Учебная точка Восток",
+"date": "2026-11-10",
+"point_id": "53b30828-2512-4419-8170-000000000007"
+},
+{
+"sales": 0,
+"returns": 0,
+"net": 0,
+"sale_documents": 0,
+"lines": 0,
+"store_name": "Учебная точка",
+"date": "2026-11-11",
+"point_id": "53b30828-2512-4419-8170-000000000002"
+},
+{
+"sales": 0,
+"returns": 0,
+"net": 0,
+"sale_documents": 0,
+"lines": 0,
+"store_name": "Учебная точка Восток",
+"date": "2026-11-11",
+"point_id": "53b30828-2512-4419-8170-000000000007"
+},
+{
+"sales": 1030,
+"returns": 0,
+"net": 1030,
+"sale_documents": 1,
+"lines": 1,
+"store_name": "Учебная точка",
+"date": "2026-11-12",
+"point_id": "53b30828-2512-4419-8170-000000000002"
+},
+{
+"sales": 0,
+"returns": 0,
+"net": 0,
+"sale_documents": 0,
+"lines": 0,
+"store_name": "Учебная точка Восток",
+"date": "2026-11-12",
+"point_id": "53b30828-2512-4419-8170-000000000007"
+},
+{
+"sales": 1040,
+"returns": 0,
+"net": 1040,
+"sale_documents": 1,
+"lines": 1,
+"store_name": "Учебная точка",
+"date": "2026-11-13",
+"point_id": "53b30828-2512-4419-8170-000000000002"
+},
+{
+"sales": 2180,
+"returns": 204,
+"net": 1976,
+"sale_documents": 1,
+"lines": 2,
+"store_name": "Учебная точка Восток",
+"date": "2026-11-13",
+"point_id": "53b30828-2512-4419-8170-000000000007"
+},
+{
+"sales": 1050,
+"returns": 0,
+"net": 1050,
+"sale_documents": 1,
+"lines": 1,
+"store_name": "Учебная точка",
+"date": "2026-11-14",
+"point_id": "53b30828-2512-4419-8170-000000000002"
+},
+{
+"sales": 0,
+"returns": 0,
+"net": 0,
+"sale_documents": 0,
+"lines": 0,
+"store_name": "Учебная точка Восток",
+"date": "2026-11-14",
+"point_id": "53b30828-2512-4419-8170-000000000007"
+},
+{
+"sales": 1060,
+"returns": 0,
+"net": 1060,
+"sale_documents": 1,
+"lines": 1,
+"store_name": "Учебная точка",
+"date": "2026-11-15",
+"point_id": "53b30828-2512-4419-8170-000000000002"
+},
+{
+"sales": 2220,
+"returns": 0,
+"net": 2220,
+"sale_documents": 1,
+"lines": 1,
+"store_name": "Учебная точка Восток",
+"date": "2026-11-15",
+"point_id": "53b30828-2512-4419-8170-000000000007"
+},
+{
+"sales": 10000,
+"returns": 2000,
+"net": 8000,
+"sale_documents": 1,
+"lines": 2,
+"store_name": "Учебная точка",
+"date": "2026-11-16",
+"point_id": "53b30828-2512-4419-8170-000000000002"
+},
+{
+"sales": 0,
+"returns": 0,
+"net": 0,
+"sale_documents": 0,
+"lines": 0,
+"store_name": "Учебная точка Восток",
+"date": "2026-11-16",
+"point_id": "53b30828-2512-4419-8170-000000000007"
+},
+{
+"sales": 1080,
+"returns": 0,
+"net": 1080,
+"sale_documents": 1,
+"lines": 1,
+"store_name": "Учебная точка",
+"date": "2026-11-17",
+"point_id": "53b30828-2512-4419-8170-000000000002"
+},
+{
+"sales": 2260,
+"returns": 0,
+"net": 2260,
+"sale_documents": 1,
+"lines": 1,
+"store_name": "Учебная точка Восток",
+"date": "2026-11-17",
+"point_id": "53b30828-2512-4419-8170-000000000007"
+},
+{
+"sales": 1090,
+"returns": 0,
+"net": 1090,
+"sale_documents": 1,
+"lines": 1,
+"store_name": "Учебная точка",
+"date": "2026-11-18",
+"point_id": "53b30828-2512-4419-8170-000000000002"
+},
+{
+"sales": 0,
+"returns": 0,
+"net": 0,
+"sale_documents": 0,
+"lines": 0,
+"store_name": "Учебная точка Восток",
+"date": "2026-11-18",
+"point_id": "53b30828-2512-4419-8170-000000000007"
+},
+{
+"sales": 1100,
+"returns": 0,
+"net": 1100,
+"sale_documents": 1,
+"lines": 1,
+"store_name": "Учебная точка",
+"date": "2026-11-19",
+"point_id": "53b30828-2512-4419-8170-000000000002"
+},
+{
+"sales": 2300,
+"returns": 0,
+"net": 2300,
+"sale_documents": 1,
+"lines": 1,
+"store_name": "Учебная точка Восток",
+"date": "2026-11-19",
+"point_id": "53b30828-2512-4419-8170-000000000007"
+},
+{
+"sales": 1110,
+"returns": 0,
+"net": 1110,
+"sale_documents": 1,
+"lines": 1,
+"store_name": "Учебная точка",
+"date": "2026-11-20",
+"point_id": "53b30828-2512-4419-8170-000000000002"
+},
+{
+"sales": 0,
+"returns": 211,
+"net": -211,
+"sale_documents": 0,
+"lines": 1,
+"store_name": "Учебная точка Восток",
+"date": "2026-11-20",
+"point_id": "53b30828-2512-4419-8170-000000000007"
+},
+{
+"sales": 1120,
+"returns": 0,
+"net": 1120,
+"sale_documents": 1,
+"lines": 1,
+"store_name": "Учебная точка",
+"date": "2026-11-21",
+"point_id": "53b30828-2512-4419-8170-000000000002"
+},
+{
+"sales": 2340,
+"returns": 0,
+"net": 2340,
+"sale_documents": 1,
+"lines": 1,
+"store_name": "Учебная точка Восток",
+"date": "2026-11-21",
+"point_id": "53b30828-2512-4419-8170-000000000007"
+},
+{
+"sales": 1130,
+"returns": 0,
+"net": 1130,
+"sale_documents": 1,
+"lines": 1,
+"store_name": "Учебная точка",
+"date": "2026-11-22",
+"point_id": "53b30828-2512-4419-8170-000000000002"
+},
+{
+"sales": 0,
+"returns": 0,
+"net": 0,
+"sale_documents": 0,
+"lines": 0,
+"store_name": "Учебная точка Восток",
+"date": "2026-11-22",
+"point_id": "53b30828-2512-4419-8170-000000000007"
+}
+],
+"message": "Выгрузка завершена. Принято дней — 14.",
+"receipts": [
+{
+"status": "accepted",
+"http_status": 200,
+"business_date": "2026-11-09",
+"row_count": 2,
+"generated_at": "2026-11-23T06:10:39Z"
+},
+{
+"status": "accepted",
+"http_status": 200,
+"business_date": "2026-11-10",
+"row_count": 1,
+"generated_at": "2026-11-23T06:10:39Z"
+},
+{
+"status": "accepted",
+"http_status": 200,
+"business_date": "2026-11-11",
+"row_count": 0,
+"generated_at": "2026-11-23T06:10:39Z"
+},
+{
+"status": "accepted",
+"http_status": 200,
+"business_date": "2026-11-12",
+"row_count": 1,
+"generated_at": "2026-11-23T06:10:39Z"
+},
+{
+"status": "accepted",
+"http_status": 200,
+"business_date": "2026-11-13",
+"row_count": 3,
+"generated_at": "2026-11-23T06:10:39Z"
+},
+{
+"status": "accepted",
+"http_status": 200,
+"business_date": "2026-11-14",
+"row_count": 1,
+"generated_at": "2026-11-23T06:10:39Z"
+},
+{
+"status": "accepted",
+"http_status": 200,
+"business_date": "2026-11-15",
+"row_count": 2,
+"generated_at": "2026-11-23T06:10:39Z"
+},
+{
+"status": "accepted",
+"http_status": 200,
+"business_date": "2026-11-16",
+"row_count": 2,
+"generated_at": "2026-11-23T06:10:39Z"
+},
+{
+"status": "accepted",
+"http_status": 200,
+"business_date": "2026-11-17",
+"row_count": 2,
+"generated_at": "2026-11-23T06:10:39Z"
+},
+{
+"status": "accepted",
+"http_status": 200,
+"business_date": "2026-11-18",
+"row_count": 1,
+"generated_at": "2026-11-23T06:10:39Z"
+},
+{
+"status": "accepted",
+"http_status": 200,
+"business_date": "2026-11-19",
+"row_count": 2,
+"generated_at": "2026-11-23T06:10:39Z"
+},
+{
+"status": "accepted",
+"http_status": 200,
+"business_date": "2026-11-20",
+"row_count": 2,
+"generated_at": "2026-11-23T06:10:39Z"
+},
+{
+"status": "accepted",
+"http_status": 200,
+"business_date": "2026-11-21",
+"row_count": 2,
+"generated_at": "2026-11-23T06:10:39Z"
+},
+{
+"status": "accepted",
+"http_status": 200,
+"business_date": "2026-11-22",
+"row_count": 1,
+"generated_at": "2026-11-23T06:10:39Z"
+}
+]
+}

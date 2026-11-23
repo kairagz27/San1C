@@ -1,0 +1,37 @@
+services:
+  app:
+    build: !reset null
+    image: ${PILOT_IMAGE:?}
+    pull_policy: never
+    ports: !reset []
+    environment:
+      DATABASE_URL: postgresql+psycopg://san1c@/${PILOT_DATABASE:?}?host=/var/run/postgresql
+      OWNER_PASSWORD_HASH: ${OWNER_PASSWORD_HASH:?}
+      COMPANY_NAME: ${COMPANY_NAME:?}
+      SESSION_COOKIE_SECURE: "1"
+      INTEGRATION_PROFILE: /srv/pilot-profile/profile.json
+    volumes:
+      - type: bind
+        source: ${PILOT_PROFILE:?}
+        target: /srv/pilot-profile
+        read_only: true
+  https:
+    image: caddy:2-alpine
+    ports:
+      - "${PILOT_BIND:?}:${PILOT_PORT:?}:443"
+    volumes:
+      - type: bind
+        source: ${PILOT_CADDYFILE:?}
+        target: /etc/caddy/Caddyfile
+        read_only: true
+      - type: bind
+        source: ${PILOT_CERTS:?}
+        target: /srv/certs
+        read_only: true
+      - ca:/data
+    depends_on:
+      app:
+        condition: service_healthy
+    restart: unless-stopped
+volumes:
+  ca:

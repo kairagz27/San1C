@@ -1,0 +1,33 @@
+name: Проверки
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  backend-and-image:
+    name: PostgreSQL tests and production build
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build and start the application
+        run: docker compose up --build --detach --wait
+
+      - name: Run backend tests on PostgreSQL
+        run: >-
+          docker compose exec --no-TTY
+          --env 'TEST_POSTGRES_URL=postgresql+psycopg://san1c@/san1c?host=/var/run/postgresql'
+          app python -m pytest -q -p no:cacheprovider
+
+      - name: Stop application
+        if: always()
+        run: docker compose down

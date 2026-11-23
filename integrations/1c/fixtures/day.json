@@ -1,0 +1,64 @@
+{
+  "business_date": "2025-09-15",
+  "generated_at": "2025-09-16T01:00:00Z",
+  "complete": true,
+  "row_count": 4,
+  "rows": [
+    {
+      "business_date": "2025-09-15",
+      "line_id": "receipt-001/a",
+      "document_id": "receipt-001",
+      "store_id": "pilot-almaty",
+      "store_name": "Учебная точка Алматы",
+      "product_id": "p1",
+      "product_name": "Термокружка",
+      "category_id": "home",
+      "category_name": "Дом",
+      "operation": "sale",
+      "quantity": "2.000",
+      "amount": "12500.50"
+    },
+    {
+      "business_date": "2025-09-15",
+      "line_id": "receipt-001/b",
+      "document_id": "receipt-001",
+      "store_id": "pilot-almaty",
+      "store_name": "Учебная точка Алматы",
+      "product_id": "p2",
+      "product_name": "Чай",
+      "category_id": "food",
+      "category_name": "Продукты",
+      "operation": "sale",
+      "quantity": "1.000",
+      "amount": "1499.50"
+    },
+    {
+      "business_date": "2025-09-15",
+      "line_id": "receipt-002/a",
+      "document_id": "receipt-002",
+      "store_id": "pilot-astana",
+      "store_name": "Учебная точка Астаны",
+      "product_id": "p3",
+      "product_name": "Тарелка",
+      "category_id": "home",
+      "category_name": "Дом",
+      "operation": "sale",
+      "quantity": "1.000",
+      "amount": "3000.00"
+    },
+    {
+      "business_date": "2025-09-15",
+      "line_id": "return-003/a",
+      "document_id": "return-003",
+      "store_id": "pilot-almaty",
+      "store_name": "Учебная точка Алматы",
+      "product_id": "p1",
+      "product_name": "Термокружка",
+      "category_id": "home",
+      "category_name": "Дом",
+      "operation": "return",
+      "quantity": "1.000",
+      "amount": "3500.25"
+    }
+  ]
+}

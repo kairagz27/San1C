@@ -1,0 +1,36 @@
+{
+  "business_date": "2026-11-16",
+  "generated_at": "2026-11-17T08:00:00+05:00",
+  "complete": true,
+  "row_count": 2,
+  "rows": [
+    {
+      "business_date": "2026-11-16",
+      "line_id": "fixture-sale/1",
+      "document_id": "fixture-sale",
+      "store_id": "lab-store",
+      "store_name": "Учебная точка",
+      "product_id": "lab-product",
+      "product_name": "Учебный товар",
+      "category_id": "lab-category",
+      "category_name": "Учебная категория",
+      "operation": "sale",
+      "quantity": "5.000",
+      "amount": "10000.00"
+    },
+    {
+      "business_date": "2026-11-16",
+      "line_id": "fixture-return/1",
+      "document_id": "fixture-return",
+      "store_id": "lab-store",
+      "store_name": "Учебная точка",
+      "product_id": "lab-product",
+      "product_name": "Учебный товар",
+      "category_id": "lab-category",
+      "category_name": "Учебная категория",
+      "operation": "return",
+      "quantity": "1.000",
+      "amount": "2000.00"
+    }
+  ]
+}

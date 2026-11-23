@@ -1,0 +1,26 @@
+{
+"stage": "done",
+"ok": true,
+"platform": "8.5.1.1343",
+"configuration": "УчебнаяТорговля",
+"release": "1.0.0.1",
+"business_date": "2026-11-16",
+"controls": {
+"sales": 10000,
+"returns": 2000,
+"net": 8000,
+"sale_documents": 1,
+"lines": 2,
+"store_name": "Учебная точка"
+},
+"message": "Выгрузка завершена. Принято дней — 1.",
+"receipts": [
+{
+"status": "accepted",
+"http_status": 200,
+"business_date": "2026-11-16",
+"row_count": 2,
+"generated_at": "2026-11-23T05:28:17Z"
+}
+]
+}
